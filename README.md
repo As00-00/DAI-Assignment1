@@ -26,52 +26,53 @@ Standardizing categorical values : Categorical variables sometimes have typos, i
 
 # 2. Exploratory Data Analysis (EDA):
 
-Univariate Analysis: This step involves analyzing each variable independently to understand its distribution and statistical properties.
+1) Univariate Analysis: This step involves analyzing each variable independently to understand its distribution and statistical properties.
 
-Summary Statistics for Numerical Variables
+--->Summary Statistics for Numerical Variables
 
 Compute mean, median, variance, skewness, and other statistical measures.
 
-Example Interpretation:
+->Example Interpretation:
 
 If the mean and median differ significantly, it indicates skewness.
 
 A high standard deviation suggests the data has large variability.
 
-Frequency Distributions for Categorical Variables
+--->Frequency Distributions for Categorical Variables
 
 Count occurrences of each category using a bar plot.
 
-Example Interpretation:
+->Example Interpretation:
 
 If one category is dominant, it might influence other variables disproportionately.
 
-Visualizing Distributions
+--->Visualizing Distributions
 
 Histograms (for continuous variables)
 
 Box Plots (for identifying outliers)
 
-Example Interpretation:
+->Example Interpretation:
 
 If a boxplot shows long whiskers or extreme outliers, further investigation is needed.
 
-Bivariate Analysis: This step examines relationships between two variables, either numerical or categorical.
+2) Bivariate Analysis: This step examines relationships between two variables, either numerical or categorical.
 
-Correlation Matrix (Numerical Variables)
+--->Correlation Matrix (Numerical Variables)
 
 Computes the correlation coefficient between all numerical columns.
 
-Example Interpretation:
+->Example Interpretation:
+
 A correlation near 1 or -1 indicates a strong relationship.
 
 A correlation near 0 suggests no relationship.
 
-Scatter Plots (Continuous Variable Relationships)
+--->Scatter Plots (Continuous Variable Relationships)
 
 Shows how two numerical variables interact.
 
-Example Interpretation:
+->Example Interpretation:
 
 If points form a trend, the variables may have a linear relationship.
 
@@ -79,39 +80,39 @@ If scattered randomly, the variables are likely independent.
 
 Comparing Categorical and Numerical Variables
 
-Bar Plots (categorical vs. numerical)
+--->Bar Plots (categorical vs. numerical)
 
 Violin Plots (to see distribution differences)
 
-Example Interpretation:
+->Example Interpretation:
 
 If the violin plot is wider in one region, that category has more observations in that range.
 
-Multivariate Analysis: This step explores how multiple features interact.
+3) Multivariate Analysis: This step explores how multiple features interact.
 
-Pair Plots (Relationships Between Multiple Variables)
+--->Pair Plots (Relationships Between Multiple Variables)
 
 Creates scatter plots for all numerical variables against each other.
 
-Example Interpretation:
+->Example Interpretation:
 
 Diagonal elements show the distribution of each variable.
 
 Off-diagonal elements show relationships between variables.
 
-Heatmap (Visualizing Correlations Among Multiple Variables)
+--->Heatmap (Visualizing Correlations Among Multiple Variables)
 
 Highlights strong and weak correlations in a dataset.
 
-Example Interpretation:
+->Example Interpretation:
 
 Bright colors indicate strong correlations between variables.
 
-Grouped Comparisons (Analyzing Interactions Between Features)
+--->Grouped Comparisons (Analyzing Interactions Between Features)
 
-Box Plot Comparing Survival Rate by Class
+--->Box Plot Comparing Survival Rate by Class
 
-Example Interpretation:
+->Example Interpretation:
 
 Higher-class passengers tend to pay higher fares and have a higher survival rate.
 
