@@ -24,3 +24,14 @@ Bivariate Analysis: Correlation matrix, scatter plots, bar plots, and violin plo
 
 Multivariate Analysis: Pair plots, heatmaps, and grouped comparisons.
 
+# Expected Outcome
+
+✅ Learn to clean and preprocess real-world datasets.
+
+✅ Understand and visualize distributions of numerical and categorical variables.
+
+✅ Identify and interpret relationships between features.
+
+✅ Apply multivariate techniques to analyze complex interactions.
+
+
